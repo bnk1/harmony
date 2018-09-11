@@ -9,7 +9,7 @@ namespace HarmonyHub.Entities.Auth
     public class Credentials
     {
         /// <summary>
-        /// Username at MyHarmony, usualls the email adress
+        /// Username at MyHarmony, usually the email address
         /// </summary>
         [DataMember(Name = "email")]
         public string Username { get; set; }

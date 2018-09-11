@@ -9,7 +9,8 @@ namespace HarmonyHub.Entities.Request
     public class HarmonyAction
     {
         /// <summary>
-        ///     HarmonyHub command to send to device
+        ///     HarmonyHub command to send to a device.
+        ///     This is the command string expected as input to our SendCommand and SendKeyPress APIs.
         /// </summary>
         [DataMember(Name = "command")]
         public string Command { get; set; }

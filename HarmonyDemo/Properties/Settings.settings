@@ -3,7 +3,13 @@
   <Profiles />
   <Settings>
     <Setting Name="HarmonyHubAddress" Type="System.String" Scope="User">
-      <Value Profile="(Default)">HarmonyHub</Value>
+      <Value Profile="(Default)">10.0.0.38</Value>
+    </Setting>
+    <Setting Name="LogitechUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)">user@user.com</Value>
+    </Setting>
+    <Setting Name="LogitechPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
     </Setting>
   </Settings>
 </SettingsFile>

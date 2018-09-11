@@ -9,19 +9,19 @@ namespace HarmonyHub.Entities.Response
     public class Function
     {
         /// <summary>
-        /// TODO: Document this
+        /// Action object.
         /// </summary>
         [DataMember(Name = "action")]
-        public string Action { get; set; }
+        public HarmonyAction Action { get; set; }
 
         /// <summary>
-        /// TODO: Document this
+        /// Label of this function as defined in your Harmony configuration.
         /// </summary>
         [DataMember(Name = "label")]
         public string Label { get; set; }
 
         /// <summary>
-        /// TODO: Document this
+        /// Name of this function as defined in your Harmony configuration.
         /// </summary>
         [DataMember(Name = "name")]
         public string Name { get; set; }
